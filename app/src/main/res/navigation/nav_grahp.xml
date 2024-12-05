@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><!--define la estructura de navegacion-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_grahp"
+    app:startDestination="@id/listPersonajesFragment">
+
+    <!--fragmento de lista de personajes, desde él se navega hasta el fragmento de detalles del personaje-->
+    <fragment
+        android:id="@+id/listPersonajesFragment"
+        android:name="dam.pmdm.tarea2smr.ListPersonajesFragment"
+        android:label="@string/mundo_mario">
+        <action
+            android:id="@+id/action_listPersonajesFragment_to_personajesDetailFragment"
+            app:destination="@id/personajesDetailFragment" />
+    </fragment>
+
+    <!--fragemnto de detalles del personaje-->
+    <fragment
+        android:id="@+id/personajesDetailFragment"
+        android:name="dam.pmdm.tarea2smr.PersonajesDetailFragment"
+        android:label="@string/personajes" />
+
+    <!--fragmento preferencias de la aplicacion (ajustes)-->
+    <fragment
+        android:id="@+id/preferenceScreen"
+        android:name="dam.pmdm.tarea2smr.PreferenceScreen"
+        android:label="@string/ajustess" />
+</navigation>

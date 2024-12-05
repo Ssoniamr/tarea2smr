@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--estilos expecificos de modo oscuro-->
+<resources>
+
+    <!--imagen fondo pantalla principal (noche)-->
+    <style name="StyleImageBackground">
+        <item name="android:background">@drawable/fondo_mario_noche</item>
+    </style>
+
+    <!--imagen fondo pantalla Splash (noche)-->
+    <style name="StyleBackgroudSplash">
+        <item name="android:background">@drawable/fondo_splash_noche</item>
+    </style>
+
+    <!--estilo para el carView (noche)-->
+    <style name="StyleCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="cardBackgroundColor">@color/background_card_view</item>
+    </style>
+
+    <!--estilo para ActionBar (noche)-->
+    <style name="StyleActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionBar</item>
+        <item name="titleTextStyle">@style/StyletextActionBar</item>
+    </style>
+
+</resources>
+

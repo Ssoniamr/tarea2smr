@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><!--archivo con fuentes usadas (ademas de la predeterminada)-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--fuentes para textos principales como tiulos-->
+    <font
+        android:font="@font/super_mario_bros2"/>
+
+    <!--fuentes para textos a resaltar (menor a titulos-->
+    <font
+        android:font="@font/wigenda_typewrite_semi_bold"/>
+
+    <!--fuente para texto secundario-->
+    <font
+        android:font="@font/wigenda_typewrite"/>
+
+
+</font-family>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!--estilos para modo claro y comunes-->
+<resources>
+
+    <!--Margen superior para salvar la actionBar (comun)-->
+    <style name="StyleMargenParaAB">
+        <item name="android:layout_marginTop">103.5dp</item>
+    </style>
+
+    <!--imagen fondo pantalla principal (dia)-->
+    <style name="StyleImageBackground">
+        <item name="android:background">@drawable/fondo_mario_dia</item>
+    </style>
+
+    <!--fondo para la pantalla Splash (dia)-->
+    <style name="StyleBackgroudSplash">
+        <item name="android:background">@drawable/fondo_splash</item>
+    </style>
+
+    <!--estilo para el carView (dia)-->
+    <style name="StyleCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="cardBackgroundColor">@color/background_card_view</item>
+    </style>
+
+    <!--estilo para imagen de personaje del carView (comun)-->
+    <style name="StyleImageCardView">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <!--estilo texto del carView (comun)-->
+    <style name="StyleTextCardView">
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/super_mario_bros2</item>
+    </style>
+
+    <!--estilo titulo p<de antalla detalles del personaje (comun)-->
+    <style name="StyleTitleDetail">
+        <item name="android:paddingStart">50dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/super_mario_bros2</item>
+    </style>
+
+    <!--estilo texto descripcion de pantala detalles del personaje (comun)-->
+    <style name="StyleTextDescription">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:paddingEnd">25dp</item>
+        <item name="android:paddingStart">25dp</item>
+        <item name="fontFamily">@font/wigenda_typewrite_semi_bold</item>
+    </style>
+
+    <!--estilo texto caracteristicas de pantalla detalles del personaje (comun)-->
+    <style name="StyleTextCaracteristicas">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingEnd">25dp</item>
+        <item name="android:paddingStart">25dp</item>
+        <item name="fontFamily">@font/wigenda_typewrite</item>
+    </style>
+
+    <!--estilo para ActionBar (dia)-->
+    <style name="StyleActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/actionBar</item>
+        <item name="titleTextStyle">@style/StyletextActionBar</item>
+    </style>
+
+    <!--estilo texto de ActionBar (comun)-->
+    <style name="StyletextActionBar" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">@font/wigenda_typewrite_semi_bold</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+</resources>
+

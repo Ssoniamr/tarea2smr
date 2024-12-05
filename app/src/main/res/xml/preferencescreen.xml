@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--diseño pantalla de referencias-->
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--agrupacion de las opciones de preferencias para Idioma-->
+    <PreferenceCategory
+        android:key="preference_grupo_idioma"
+        android:summary="@string/elige_un_idioma"
+        app:title="@string/idioma_titulo">
+
+        <!--checkbox para selecionar el español-->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_espanol"
+            app:title="@string/espanol" />
+
+        <!--checkbox para selecionar el Ingles-->
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_ingles"
+            app:title="@string/ingles" />
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tarea2smr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_personaje">Nombre personaje</string>
+    <string name="imagen_del_personaje">imagen del personaje</string>
+    <string name="descripcion_personaje">descripcion personaje</string>
+    <string name="caracteristicas_del_personaje">caracteristicas del personaje</string>
+    <string name="mario_bros">Mario Bros</string>
+    <string name="caracteristica_mario">Héroe del reino champiñón que trata de salvar a la Princesa Peach</string>
+    <string name="poderes_mario">Poderes: Saltar alto, superfuerza y transformaciones</string>
+    <string name="luigi">Luigi</string>
+    <string name="caracteristicas_luigi">Hermano de Mario que también lucha para salvar el Reino Champiñón</string>
+    <string name="poderes_luigi">Poderes: Salto alto, capacidad de flotar brevemente y habilidades eléctricas</string>
+    <string name="peach">Peach</string>
+    <string name="caracteristicas_peach">Princesa del Reino Champiñón que frecuentemente necesita ser rescatada</string>
+    <string name="toad">Toad</string>
+    <string name="caracteristicas_toad">Leal sirviente de la Princesa Peach y defensor del Reino Champiñón</string>
+    <string name="poderes_toad">Poderes: Velocidad alta, fuerza considerable y conocimiento del Reino Champiñón</string>
+    <string name="bienbenida">Bienbenido al mundo de Mario</string>
+    <string name="seleccion_personaje">Se ha selecionado el personaje</string>
+    <string name="poderes_peach">Poderes: Flotación en el aire, habilidades mágicas y liderazgo</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="_dialog">Acerca de...</string>
+    <string name="informacion_acerca_de">Aplicación desarrollada por Sonia Munoz. Version 1.0</string>
+    <string name="home">Home</string>
+    <string name="ajustes">ajustes</string>
+    <string name="mundo_mario">Mundo Mario</string>
+    <string name="personajes">Personajes</string>
+    <string name="ajustess">Ajustes</string>
+    <string name="poderes_negrita">Poderes: </string>
+    <string name="menu_lateral_abierto">menu lateral abierto</string>
+    <string name="menu_lateral_cerrado">menu lateral cerrado</string>
+    <string name="abir_menu">abir menu</string>
+    <string name="cerrar_menu">cerrar menu</string>
+    <string name="idioma_titulo">Idioma</string>
+    <string name="espanol">Español</string>
+    <string name="ingles">Ingles</string>
+    <string name="elige_un_idioma">Elige un idioma</string>
+</resources>

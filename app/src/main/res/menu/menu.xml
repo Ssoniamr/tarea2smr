@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--diseño del menu de opciones-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--item para la opcion "acerca de..."-->
+    <item
+        android:id="@+id/menu_acerca_de"
+        android:title="@string/acerca_de"
+        app:showAsAction="never" />
+</menu>

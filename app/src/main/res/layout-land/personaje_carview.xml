@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!--diseño para los item del RecyclerView (orientacion horizontal)-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="personaje"
+            type="dam.pmdm.tarea2smr.PersonajeData" />
+    </data>
+
+    <!--Carview como contenedor principal de los items-->
+    <androidx.cardview.widget.CardView
+        style="@style/StyleCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--Imagen del personaje colocada en el lateral del cardview-->
+            <ImageView
+                android:id="@+id/image_personaje"
+                style="@style/StyleImageCardView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/imagen_del_personaje"
+                android:src="@drawable/ic_launcher_background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintWidth_percent="0.17" />
+
+            <!--nombre del personaje centrado-->
+            <TextView
+                android:id="@+id/nombre_personaje"
+                style="@style/StyleTextCardView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre_personaje"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/image_personaje"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Task2smr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_personaje">Character Name</string>
+    <string name="imagen_del_personaje">Character Image</string>
+    <string name="descripcion_personaje">Character Description</string>
+    <string name="caracteristicas_del_personaje">Character Traits</string>
+    <string name="mario_bros">Mario Bros</string>
+    <string name="caracteristica_mario">Hero of the Mushroom Kingdom who tries to save Princess Peach</string>
+    <string name="poderes_mario">Powers: High jumping, super strength, and transformations</string>
+    <string name="luigi">Luigi</string>
+    <string name="caracteristicas_luigi">Mario\'s brother who also fights to save the Mushroom Kingdom</string>
+    <string name="poderes_luigi">Powers: High jump, brief floating ability, and electrical skills</string>
+    <string name="peach">Peach</string>
+    <string name="caracteristicas_peach">Princess of the Mushroom Kingdom who frequently needs to be rescued</string>
+    <string name="toad">Toad</string>
+    <string name="caracteristicas_toad">Loyal servant of Princess Peach and defender of the Mushroom Kingdom</string>
+    <string name="poderes_toad">Powers: High speed, considerable strength, and knowledge of the Mushroom Kingdom</string>
+    <string name="bienbenida">Welcome to Mario\'s World</string>
+    <string name="seleccion_personaje">Character selected</string>
+    <string name="poderes_peach">Powers: Air floatation, magical abilities, and leadership</string>
+    <string name="acerca_de">About...</string>
+    <string name="_dialog">About...</string>
+    <string name="informacion_acerca_de">App developed by Sonia Munoz. Version 1.0</string>
+    <string name="home">Home</string>
+    <string name="ajustes">Settings</string>
+    <string name="mundo_mario">Mario World</string>
+    <string name="personajes">Characters</string>
+    <string name="ajustess">Settings</string>
+    <string name="poderes_negrita">Powers: </string>
+    <string name="menu_lateral_abierto">Side menu opened</string>
+    <string name="menu_lateral_cerrado">Side menu closed</string>
+    <string name="abir_menu">Open menu</string>
+    <string name="cerrar_menu">Close menu</string>
+    <string name="idioma_titulo">Language</string>
+    <string name="espanol">Spanish</string>
+    <string name="ingles">English</string>
+    <string name="elige_un_idioma">Choose a Language</string>
+</resources>

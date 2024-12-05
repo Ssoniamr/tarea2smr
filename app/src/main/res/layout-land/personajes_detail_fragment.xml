@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!--Diseño de la pantalla de detalles (orientacion Horizontal)-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="personaje"
+            type="dam.pmdm.tarea2smr.PersonajeData" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_detail">
+
+        <!--Imagen del personaje-->
+        <ImageView
+            android:id="@+id/image_personaje"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/imagen_del_personaje"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="3:3"
+            app:layout_constraintEnd_toStartOf="@id/descripcion_personaje"
+            app:layout_constraintHeight_percent="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <!--nombre del personaje-->
+        <TextView
+            android:id="@+id/nombre_personaje"
+            style="@style/StyleTitleDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_personaje"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_personaje"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.6" />
+
+        <!--descripcion del personaje-->
+        <TextView
+            android:id="@+id/descripcion_personaje"
+            style="@style/StyleTextDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/descripcion_personaje"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_personaje"
+            app:layout_constraintTop_toBottomOf="@id/nombre_personaje"
+            app:layout_constraintWidth_percent="0.6" />
+
+        <!--poderes del personaje-->
+        <TextView
+            android:id="@+id/caracteristicas_personaje"
+            style="@style/StyleTextCaracteristicas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/caracteristicas_del_personaje"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_personaje"
+            app:layout_constraintTop_toBottomOf="@id/descripcion_personaje"
+            app:layout_constraintWidth_percent="0.6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
